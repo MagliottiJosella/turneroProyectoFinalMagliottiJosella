@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario trabajo final</title>
+    <!-- Enlace con Bootstrap --> <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="turns">
+
+        <h1>ROMA barberia</h1>
+        <h3>Gracias por elegirnos! saca tu turno</h3>
+
+        <div class="calendar">
+
+            <div class="calendarInfo">
+                <div class="calendarPrev"  id="prevMonth"> &#10094; </div>
+                <div class="calendarMonth" id="month"></div>
+                <div class="calendarYear" id="year"></div>
+                <div class="calendarNext" id="nextMonth"> &#10095;</div>
+            </div>
+       
+    
+        <div class="calendarWeek">
+            <div class="calendarDay calendarItem">LUNES</div>
+            <div class="calendarDay calendarItem">MARTES</div>
+            <div class="calendarDay calendarItem">MIERCOLES</div>
+            <div class="calendarDay calendarItem">JUEVES</div>
+            <div class="calendarDay calendarItem">VIERNES</div>
+            <div class="calendarDay calendarItem">SABADO</div>
+            <div class="calendarDay calendarItem">DOMINGO</div>
+        </div>
+    
+        <div class="calendarDates" id="dates"></div>
+        </div>
+    
+        <div class="timeSelection">
+    
+            <label for="" id="selectionHours">Horarios disponibles</label>
+            <select name="" id="hours">
+                <option value="0">select</option>
+                <option value="10">10hs</option>
+                <option value="11">11hs</option>
+                <option value="12">12hs</option>
+                <option value="13">13hs</option>
+                <option value="15">15hs</option>
+                <option value="16">16hs</option>
+                <option value="17">17hs</option>
+                <option value="18">18hs</option>
+                <option value="19">19hs</option>
+            </select>
+
+        </div>
+
+        <form id="datosCliente">
+
+            <LAbel>ingrese sus datos</LAbel>  
+            <input type="text" name="" id="nombreCliente" placeholder="Nombre Apellido (respetar el orden y formato indicado)" required>      
+            <button type="submit" id="reservar">reservar</button>
+    
+         </form>
+    
+
+    </div>
+
+
+
+
+
+
+       <!-- JavaScript Bundle with Popper --> <!-- Enlace con Bootstrap --> 
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+       <!-- Libreria sweetAlert --> 
+       <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <!-- Enlace para hoja Javascript --> 
+       <script src="./script.js"></script>
+</body>
+</html>

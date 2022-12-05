@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background: rgba(156, 139, 139, 0.447);
+}
+
+.calendar{
+    background: rgb(143, 140, 140);
+    width: 70%;
+    max-width: 700px;
+    margin-left: 25%;
+    margin-top: 5%;
+    
+
+
+}
+
+.calendarInfo{
+    display: flex;
+    align-items: center;
+    margin-left:20%;
+    padding: 2%;
+    font-size:20px ;
+}
+
+#month{
+    padding:5%;
+    background:rgba(15, 13, 15, 0.948);
+    color:#fff;
+}
+
+
+#year{
+    padding:5%;
+    background:  rgba(15, 13, 15, 0.948);
+    color:#fff;
+}
+
+
+
+#prevMonth{
+    color:rgb(65, 65, 65);
+    padding: 5%;
+    font-weight:900;
+    cursor: pointer;
+    font-size: 30px;
+ 
+}
+
+#nextMonth{
+    color:rgb(65, 65, 65);
+    padding: 5%;
+    font-weight:900;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.calendarWeek{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap:10px;
+}
+
+.calendarItem{
+    text-align: center;
+    line-height: 2;
+}
+
+#dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap:10px;
+    margin: 5%;
+   
+}
+
+.calendarToday{
+    background: #fff;
+    color:black;
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+
+.calendarLast{
+    color:black;
+    opacity: .4;
+}
+
+
+.diaseleccionado{
+    background: rgb(129, 46, 46);
+    border-radius: 50%;
+    color:black;
+    margin:auto;
+    
+}
+
+
+.timeSelection{
+
+    background: rgb(143, 140, 140);
+    width: 70%;
+    max-width: 700px;
+    margin-left: 25%;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+select {
+    background: transparent;
+    border:10;
+    font-size: 14px;
+    height: 30px;
+    margin:2%;
+    padding: 5px;
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+ }
+
+
+ #datosCliente{
+ 
+    background: rgb(143, 140, 140);
+    width: 70%;
+    max-width: 700px;
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5%;
+
+ }
+
+ #reservar{
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20%;
+    font-size: 15px;
+    font-weight: 900;
+    background: rgb(214, 139, 139);
+ }
+
+
+
+ #nombreCliente{
+    background: rgb(189, 184, 184);
+    border-radius: 10%;
+    width: 350px;
+    padding: 1%;
+    margin: 1%;
+ }
+ 
+
+
+
+#reservar{
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+ padding: 10px; /*espacio alrededor texto*/
+ background-color: #565556; /*color botón*/
+ color: #ffffff; /*color texto*/
+ text-decoration: none; /*decoración texto*/
+ text-transform: uppercase; /*capitalización texto*/
+ font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+ border-radius: 50px; /*bordes redondos*/
+      
+}
+
+
+h1{
+    font-size: 40px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+h3{
+
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 20px;
+
+}
